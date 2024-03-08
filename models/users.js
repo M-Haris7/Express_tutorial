@@ -33,6 +33,6 @@ const userSchema = new mongoose.Schema({
   }
 });
 
-// Create user model
+// Create user model (test for user model)
 const User = mongoose.model('User', userSchema);
 module.exports = User;
